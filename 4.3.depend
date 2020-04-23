@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1587630765 source:g:\users\Ðîìà\desktop\4.3\main.cpp
+	<iostream>
+	"Edition.h"
+	"Journal.h"
+	"Book.h"
+	"Newspaper.h"
+
+1587629107 source:g:\users\Ðîìà\desktop\4.3\edition.cpp
+	"Edition.h"
+	<string>
+	<cstring>
+
+1587629256 source:g:\users\Ðîìà\desktop\4.3\journal.cpp
+	<iostream>
+	"Journal.h"
+	"Edition.h"
+	<string>
+	<cstring>
+
+1587629098 g:\users\Ðîìà\desktop\4.3\edition.h
+	<string>
+
+1587629256 g:\users\Ðîìà\desktop\4.3\journal.h
+	<string>
+	"Edition.h"
+
+1587630525 source:g:\users\Ðîìà\desktop\4.3\book.cpp
+	<iostream>
+	"Book.h"
+	"Edition.h"
+	<string>
+	<cstring>
+
+1587629354 g:\users\Ðîìà\desktop\4.3\book.h
+	<string>
+	"Edition.h"
+
+1587630525 source:g:\users\Ðîìà\desktop\4.3\newspaper.cpp
+	<iostream>
+	"Newspaper.h"
+	"Edition.h"
+	<string>
+	<cstring>
+
+1587629429 g:\users\Ðîìà\desktop\4.3\newspaper.h
+	<string>
+	"Edition.h"
+

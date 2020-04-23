@@ -17,7 +17,7 @@
         return 1;
     }
 
-    int Journal::getNumber()
+    int Journal::getNumber() const
     {
         return number;
     }

@@ -14,7 +14,7 @@ public:
     Newspaper();
     Newspaper(const string *name, const string *format, const string *color, const int year);
     Newspaper(const Newspaper &newspaper);
-    virtual void print();
+    virtual void print() const;
     bool setFormat(const string *format);
     string getFormat() const;
     bool setColor(const string *color);

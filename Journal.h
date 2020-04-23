@@ -13,7 +13,7 @@ public:
     Journal();
     Journal(const string *name, const int year, const int number);
     Journal(const Journal &journal);
-    virtual void print();
+    virtual void print() const;
     bool setNumber(const int number);
     int getNumber() const;
     Journal &operator = (const Journal &journal);

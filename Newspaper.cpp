@@ -22,12 +22,12 @@
         return 1;
     }
 
-    string Newspaper::getFormat()
+    string Newspaper::getFormat() const
     {
         return format;
     }
 
-    string Newspaper::getColor()
+    string Newspaper::getColor() const
     {
         return color;
     }

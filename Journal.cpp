@@ -22,7 +22,7 @@
         return number;
     }
 
-    void Journal::print()
+    void Journal::print() const
     {
         cout << "Name: " << name << "\nYear: " << year << "\nEntry number: " << number << endl;
     }

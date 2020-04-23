@@ -31,12 +31,12 @@
         return 1;
     }
 
-    string Edition::getName()
+    string Edition::getName() const
     {
         return name;
     }
 
-    int Edition::getYear()
+    int Edition::getYear() const
     {
         return year;
     }

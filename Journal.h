@@ -15,7 +15,7 @@ public:
     Journal(const Journal &journal);
     virtual void print();
     bool setNumber(const int number);
-    int getNumber();
+    int getNumber() const;
     Journal &operator = (const Journal &journal);
 };
 

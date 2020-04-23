@@ -33,7 +33,7 @@
         return countPage;
     }
 
-    void Book::print()
+    void Book::print() const
     {
         cout << "Name: " << name << "\nAuthor: " << author << "\nYear: " << year << "\nNumber of pages: " << countPage << endl;
     }

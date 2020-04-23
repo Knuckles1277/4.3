@@ -16,9 +16,9 @@ public:
     Book(const Book &book);
     virtual void print();
     bool setAuthor(const string *author);
-    string getAuthor();
+    string getAuthor() const;
     bool setCountPage(const int countPage);
-    int getCountPage();
+    int getCountPage() const;
     Book &operator = (const Book &book);
 };
 

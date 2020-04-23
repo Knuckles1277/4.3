@@ -14,7 +14,7 @@ public:
     Book();
     Book(const string *name, const string *author, const int year, const int number);
     Book(const Book &book);
-    virtual void print();
+    virtual void print() const;
     bool setAuthor(const string *author);
     string getAuthor() const;
     bool setCountPage(const int countPage);

@@ -32,7 +32,7 @@
         return color;
     }
 
-    void Newspaper::print()
+    void Newspaper::print() const
     {
         cout << "Name: " << name << "\nYear: " << year << "\nFormat: " << format << "\nColor: " << color << endl;
     }

@@ -23,12 +23,12 @@
         return 1;
     }
 
-    string Book::getAuthor()
+    string Book::getAuthor() const
     {
         return author;
     }
 
-    int Book::getCountPage()
+    int Book::getCountPage() const
     {
         return countPage;
     }
@@ -47,3 +47,4 @@
         this->countPage=book.countPage;
         return *this;
     }
+

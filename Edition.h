@@ -13,7 +13,7 @@ public:
     Edition();
     Edition(const string *name, const int year);
     Edition(const Edition &edition);
-    virtual void print()=0;
+    virtual void print()const=0;
     bool setName(const string *name);
     bool setYear(const int year);
     string getName() const;

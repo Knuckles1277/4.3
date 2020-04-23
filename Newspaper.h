@@ -16,9 +16,9 @@ public:
     Newspaper(const Newspaper &newspaper);
     virtual void print();
     bool setFormat(const string *format);
-    string getFormat();
+    string getFormat() const;
     bool setColor(const string *color);
-    string getColor();
+    string getColor() const;
     Newspaper &operator = (const Newspaper &newspaper);
 };
 

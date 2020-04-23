@@ -16,8 +16,8 @@ public:
     virtual void print()=0;
     bool setName(const string *name);
     bool setYear(const int year);
-    string getName();
-    int getYear();
+    string getName() const;
+    int getYear() const;
     Edition &operator = (const Edition &edition);
 };
 
